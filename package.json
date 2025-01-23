@@ -1,0 +1,8 @@
+{
+  "name": "Maficaliz",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/Maficaliz/Maficaliz.git",
+  "author": "Lunna Cipher <lunna.devsec@gmail.com>",
+  "license": "MIT"
+}
