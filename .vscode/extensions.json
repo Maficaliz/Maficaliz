@@ -1,0 +1,45 @@
+{
+    "recommendations": [
+      // 🛠️ Ferramentas de Desenvolvimento
+      "dbaeumer.vscode-eslint",            // ESLint - Linter para JavaScript/TypeScript
+      "esbenp.prettier-vscode",            // Prettier - Formatação de código
+      "ms-vscode.vscode-typescript-next",  // Versão experimental do TypeScript
+      "gamunu.vscode-yarn",                //! Suporte ao Yarn no VS Code
+      "quicktype.quicktype",               // Geração automática de tipos
+  
+      // 📌 Melhorias na Experiência de Código
+      
+      "pkief.material-icon-theme",         //!!! Ícones personalizados para arquivos e pastas
+      "usernamehw.errorlens",              // Destaca erros e avisos no código
+      "aaron-bond.better-comments",        //!!! Melhora a legibilidade de comentários
+      "kisstkondoros.vscode-codemetrics",  //! Exibe métricas do código
+      "tal7aouy.rainbow-bracket",          // Cores diferentes para cada nível de parênteses/chaves
+      "naumovs.color-highlight",           // Destaca cores CSS no código
+  
+      // 🏗️ HTML, CSS e UI
+      "ecmel.vscode-html-css",             // Suporte aprimorado para HTML e CSS
+      "formulahendry.auto-close-tag",      // Fecha tags HTML automaticamente
+      "pranaygp.vscode-css-peek",          // Permite visualizar definições de CSS ao passar o mouse
+  
+      // ⚛️ React e JavaScript
+      "dsznajder.es7-react-js-snippets",   // Snippets para React e ES7+
+      "skyran.js-jsx-snippets",            // Snippets adicionais para JavaScript e JSX
+      "fallenmax.mithril-emmet",           // Suporte para Mithril.js
+  
+      // 📄 Markdown e Documentação
+      "yzhang.markdown-all-in-one",        //! Melhorias no Markdown
+      "davidanson.vscode-markdownlint",    //! Linter para Markdown
+  
+      // 🔍 Git e Controle de Versão
+      "github.vscode-github-actions",      // Suporte para GitHub Actions no VS Code
+      "donjayamanne.githistory",           // Histórico de commits no Git
+      "eamodio.gitlens",                   //! Ferramentas avançadas para Git
+  
+      // 🛠️ Utilitários e Qualidade de Vida
+      "wallabyjs.console-ninja",           //! Melhoria no console de depuração
+      "emilast.logfilehighlighter",        // Destaca logs no VS Code
+      "jmkrivocapich.drawfolderstructure", // Gera estrutura de pastas visualmente
+      "mohsen1.prettify-json",             // Formata arquivos JSON
+    ]
+  }
+  
