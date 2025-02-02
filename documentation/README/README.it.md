@@ -6,7 +6,7 @@
 
 ## 🌍 Seleziona la Lingua
 
-<div style="text-align: center;"> 
+<div align="center"> 
 
 [![Italiano](./flag-icons/flag-italy-48.png)](./README.it.md)
 

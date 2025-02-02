@@ -6,7 +6,7 @@
 
 ## 🌍 Seleccionar Idioma
 
-<div style="text-align: center;"> 
+<div align="center"> 
 
 [![Español](./flag-icons/flag-spain-flag-48.png)](./README.es.md)
 

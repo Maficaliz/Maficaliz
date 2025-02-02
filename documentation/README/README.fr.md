@@ -6,7 +6,7 @@
 
 ## 🌍 Sélectionner la langue
 
-<div style="text-align: center;"> 
+<div align="center"> 
 
 [![Français](./flag-icons/flag-france-48.png)](./README.fr.md)
 

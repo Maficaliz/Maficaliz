@@ -6,7 +6,7 @@
 
 ## 🌍 言語を選択
 
-<div style="text-align: center;"> 
+<div align="center"> 
 
 [![日本語](./flag-icons/flag-japan-48.png)](./README.jp.md)
 

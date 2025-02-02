@@ -6,7 +6,7 @@
 
 ## 🌍 Select Language
 
-<div style="text-align: center;"> 
+<div align="center"> 
 
 [![English](./flag-icons/flag-great-britain-48.png)](./README.gb.md)
 

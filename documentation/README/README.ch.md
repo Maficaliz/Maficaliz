@@ -6,7 +6,7 @@
 
 ## 🌍 选择语言
 
-<div style="text-align: center;"> 
+<div align="center"> 
 
 [![中文](./flag-icons/flag-china-48.png)](./README.ch.md)
 

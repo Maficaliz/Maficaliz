@@ -7,7 +7,7 @@
 
 ## 🌍 Selecione o Idioma
 
-<div style="text-align: center;"> 
+<div  align="center"> 
 
 [![Português](./documentation/README/flag-icons/flag-brazil-48.png)](./README.md)
 

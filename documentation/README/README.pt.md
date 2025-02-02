@@ -6,7 +6,7 @@
 
 ## 🌍 Seleciona o Idioma
 
-<div style="text-align: center;"> 
+<div align="center"> 
 
 [![Português (Portugal)](./flag-icons/flag-portugal-48.png)](./README.pt.md)
 

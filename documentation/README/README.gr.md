@@ -6,7 +6,7 @@
 
 ## 🌍 Επιλέξτε Γλώσσα
 
-<div style="text-align: center;"> 
+<div align="center"> 
 
 [![Ελληνικά](./flag-icons/flag-greece-48.png)](./README.gr.md)
 

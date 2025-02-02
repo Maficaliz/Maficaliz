@@ -6,7 +6,7 @@
 
 ## 🌍 Select Language
 
-<div style="text-align: center;"> 
+<div align="center"> 
 
 [![English](./flag-icons/flag-usa-48.png)](./README.en.md)
 
@@ -18,6 +18,7 @@
 
 - [🎩 Maficaliz](#-maficaliz)
   - [🌍 Select Language](#-select-language)
+- [](#)
   - [📑 Table of Contents](#-table-of-contents)
   - [📖 Overview](#-overview)
   - [🎮 Main Features](#-main-features)
