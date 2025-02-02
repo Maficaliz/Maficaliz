@@ -8,9 +8,9 @@
 
 <div style="text-align: center;"> 
 
-[![English](./flag-icons/flag-usa-48.png)](./README.en.md)
+[![English](./flag-icons/flag-great-britain-48.png)](./README.gb.md)
 
-[![Portuguese](./flag-icons/flag-brazil-48.png)](../../README.md) [![English](./flag-icons/flag-great-britain-48.png)](./README.gb.md) [![Español](./flag-icons/flag-spain-flag-48.png)](./README.es.md) [![Français](./flag-icons/flag-france-48.png)](./README.fr.md) [![Ελληνικά](./flag-icons/flag-greece-48.png)](./README.gr.md) [![日本語](./flag-icons/flag-japan-48.png)](./README.jp.md) [![Italiano](./flag-icons/flag-italy-48.png)](./README.it.md) [![Português (Portugal)](./flag-icons/flag-portugal-48.png)](./README.pt.md) [![中文](./flag-icons/flag-china-48.png)](./README.ch.md)
+[![Portuguese](./flag-icons/flag-brazil-48.png)](../../README.md) [![English](./flag-icons/flag-usa-48.png)](./README.en.md) [![Español](./flag-icons/flag-spain-flag-48.png)](./README.es.md) [![Français](./flag-icons/flag-france-48.png)](./README.fr.md) [![Ελληνικά](./flag-icons/flag-greece-48.png)](./README.gr.md) [![日本語](./flag-icons/flag-japan-48.png)](./README.jp.md) [![Italiano](./flag-icons/flag-italy-48.png)](./README.it.md) [![Português (Portugal)](./flag-icons/flag-portugal-48.png)](./README.pt.md) [![中文](./flag-icons/flag-china-48.png)](./README.ch.md)
 
 </div>
 
@@ -37,7 +37,7 @@
 
 ## 📖 Overview  
 
-*Maficaliz* places you in the heart of a war between mafia families. Your mission? **Overcome the state** using strategy, influence, and power.
+*Maficaliz* places you at the heart of a war between mafia families. Your mission? **Overcome the state** using strategy, influence, and power.
 
 ---
 
@@ -46,7 +46,7 @@
 ✅ **Family Management** – Build your mafia by recruiting powerful allies.  
 ✅ **Economy and Resources** – Manage money, influence, and people.  
 ✅ **Strategic Conflicts** – Face rivals in stat-based battles.  
-✅ **Dynamic Events** – Special missions and surprises in every playthrough.  
+✅ **Dynamic Events** – Special missions and surprises with every playthrough.  
 ✅ **Multiplayer (SOON)** – Conquer the underworld alone or in groups.  
 
 ---
@@ -69,7 +69,7 @@
 ## 🚀 Roadmap  
 
 🔹 **[ ] Story Mode**  
-🔹 **[ ] Improved Faction System**  
+🔹 **[ ] Enhanced Faction System**  
 🔹 **[ ] Balance Improvements**  
 🔹 **[ ] New Events and Interactive NPCs**  
 
@@ -85,7 +85,7 @@ Want to help improve *Maficaliz*?
 
 Check out more details in the **Contribution Guide**.
 
-Consider supporting the project financially as well.
+You may also consider supporting the project financially.
 
 ---
 
@@ -104,7 +104,7 @@ Consider supporting the project financially as well.
 # Clone the repository
 git clone https://github.com/your-user/maficaliz.git  
 
-# Access the project folder
+# Navigate to the project folder
 cd maficaliz/App
 
 # Install dependencies
@@ -122,8 +122,8 @@ This project is licensed under the **Creative Commons BY-NC-SA 4.0** license. Fo
 
 ### Rights  
 
-- **Share**: You can copy and redistribute the material.  
-- **Adapt**: You can remix, transform, and create from the material.
+- **Share**: You may copy and redistribute the material.  
+- **Adapt**: You may remix, transform, and create from the material.
 
 ### Conditions  
 
