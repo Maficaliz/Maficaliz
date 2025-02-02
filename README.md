@@ -2,8 +2,6 @@
 
 🌍 **Select Language | Selecione o Idioma | Seleccione el Idioma**  
 
-[![English](https://raw.githubusercontent.com/hjnilsson/country-flags/main/png100px/gb.png)](./documentation/README/README.en.md)  
-[![Português](https://raw.githubusercontent.com/hjnilsson/country-flags/main/png100px/br.png)](README.md)  
-[![Español](https://raw.githubusercontent.com/hjnilsson/country-flags/main/png100px/es.png)](README.es.md)  
+[![English](./documentation/README/flag-icons/flag-usa-48.png)](./documentation/README/README.en.md) [![Português](./documentation/README/flag-icons/flag-brazil-48.png)](README.md) [![Español](./documentation/README/flag-icons/flag-spain-flag-48.png)](README.es.md)  
 
 📌 _O jogo de máfia orientado a estatística._
