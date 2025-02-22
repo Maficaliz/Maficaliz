@@ -1,42 +1,27 @@
-import User from "../core/classes/user";
-import { useState } from "react";
+import moneyPort from "../core/ports/moneyPort";
 
-const useMoney = ({ user }: { user: User }) => {
-    const [dirty, setDirty] = useState<number>(user.getMoney.dirty());
-    const [clear, setClear] = useState<number>(user.getMoney.clear());
+class MoneyMiddleware {
+  private user;
 
-    const money = {
-        clear: {
-            get: () => clear,
-            add: (amount: number) => {
-                user.addMoney.clear(amount);  // Atualiza o dinheiro no User
-                setClear(prev => prev + amount);  // Atualiza o estado local
-            },
-            remove: (amount: number) => {
-                user.removeMoney.clear(amount);  // Atualiza o dinheiro no User
-                setClear(prev => Math.max(0, prev - amount));  // Atualiza o estado local
-            }
-        },
-        dirty: {
-            get: () => dirty,
-            add: (amount: number) => {
-                user.addMoney.dirty(amount);  // Atualiza o dinheiro no User
-                setDirty(prev => prev + amount);  // Atualiza o estado local
-            },
-            remove: (amount: number) => {
-                user.removeMoney.dirty(amount);  // Atualiza o dinheiro no User
-                setDirty(prev => Math.max(0, prev - amount));  // Atualiza o estado local
-            },
-            clean: (amount: number) => {
-                const toClean = Math.min(dirty, amount);  // Valor a ser limpo
-                setDirty(prevDirty => prevDirty - toClean);  // Atualiza o estado de sujo
-                setClear(prevClear => prevClear + toClean);  // Atualiza o estado limpo
-                user.cleanMoney(toClean);  // Atualiza o dinheiro no User
-            }
-        }
-    };
+  constructor(user) {
+    this.user = user;
+  }
 
-    return { money };
-};
+  getBalance(type: "clear" | "dirty"): number {
+    return moneyPort[type].get(this.user);
+  }
 
-export default useMoney;
+  addMoney(type: "clear" | "dirty", amount: number): void {
+    moneyPort[type].add(this.user, amount);
+  }
+
+  removeMoney(type: "clear" | "dirty", amount: number): void {
+    moneyPort[type].remove(this.user, amount);
+  }
+
+  cleanMoney(amount: number): void {
+    moneyPort.actions.clean(this.user, amount);
+  }
+}
+
+export default MoneyMiddleware;

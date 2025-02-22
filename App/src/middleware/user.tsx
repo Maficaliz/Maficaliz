@@ -1,7 +1,9 @@
-import User from "../core/classes/user";
+import userPort from "../core/ports/userPort";
 
-const useUser = (name: string = '') => {
-    return new User(name);
+class UserMiddleware {
+  createUser(name: string) {
+    return userPort.createUser(name);
+  }
 }
 
-export default useUser;
+export default UserMiddleware;
